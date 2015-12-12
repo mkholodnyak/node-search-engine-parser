@@ -40,13 +40,23 @@ You need to implement Search Strategy interface:
 
  ```js
 
-var GoogleImageStrategy = {
-    getSearchURL : function(query){
+var cheerio = require('cheerio');
 
+var SearchEngineStrategy = {
+    getSearchURL : function(query){
+        return "http://your-search-engine.com?query=" + query;
     },
 
     getResults : function(html, callback){
+        var $ = cheerio.load(html);
+        var imageLinks = $('.link');
+        var imageHrefs = [];
 
+        imageLinks.each(function(i, element){
+            imageHrefs.push(element.attribs.href);
+        });
+
+        callback(null, result);
     }
 };
  ```
