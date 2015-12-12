@@ -1,6 +1,6 @@
 {
-  "name": "search-engines-crawler",
-  "url": "https://github.com/mkholodnyak/search-engines-crawler/issues",
+  "name": "search-engine-parser",
+  "url": "https://github.com/mkholodnyak/node-search-engine-parser/issues",
   "author": "Max Kholodnyak",
   "email": "mvkholodnyak@gmail.com",
   "version": "0.9.0",
@@ -19,7 +19,7 @@
     "google",
     "image",
     "serp",
-    "crawler"
+    "parser"
   ],
   "license": "MIT"
 }

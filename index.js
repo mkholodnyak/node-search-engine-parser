@@ -1,1 +1,1 @@
-require('./lib/crawler');
+require('./lib/parser');

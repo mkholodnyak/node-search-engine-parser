@@ -1,4 +1,4 @@
-Node.js - Search Engines Crawler
+Node.js - Search Engine Parser
 =====================
 
 This module allows you to search google by scraping the results.
@@ -7,7 +7,7 @@ You can add your own search engine.
 Installation
 ------------
 
-    npm install --save search-engines-crawler
+    npm install --save search-engine-parser
 
 
 Built-in strategies
@@ -22,11 +22,11 @@ This prints out the first 20 search results of the query `kitten` in Google Imag
 
 ```js
 
-var createCrawler = require('search-engines-crawler');
+var createParser = require('search-engine-parser');
 
-var googleImagesCrawler = createCrawler('google-images');
+var googleImagesParser = createParser('google-images');
 
-googleImagesCrawler.search('kitten', function(err, results){
+googleImagesParser.search('kitten', function(err, results){
     results.map(function(result){
         console.log(result);
     });
@@ -61,7 +61,7 @@ var SearchEngineStrategy = {
 };
  ```
 
-Example [Google Images strategy](https://github.com/mkholodnyak/search-engines-crawler/blob/master/strategies/google-images-strategy.js).
+Example [Google Images strategy](https://github.com/mkholodnyak/node-search-engine-parser/blob/master/strategies/google-images-strategy.js).
 
 License
 -------

@@ -1,7 +1,7 @@
-var createCrawler = require('../lib/crawler');
+var createParser = require('../lib/parser');
 
-var googleImagesCrawler = createCrawler('google-images');
+var googleImagesParser = createParser('google-images');
 
-googleImagesCrawler.search('kitten', function(err, result, query){
+googleImagesParser.search('kitten', function(err, result){
     console.log(result);
 });
