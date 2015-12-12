@@ -1,15 +1,19 @@
 {
   "name": "search-engines-crawler",
-  "url" : "https://github.com/mkholodnyak/search-engines-crawler/issues",
+  "url": "https://github.com/mkholodnyak/search-engines-crawler/issues",
   "author": "Max Kholodnyak",
-  "email" : "mvkholodnyak@gmail.com",
+  "email": "mvkholodnyak@gmail.com",
   "version": "0.1",
   "description": "",
   "main": "index.js",
   "directories": {
     "example": "examples"
   },
-  "dependencies": {},
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "lodash": "^3.10.1",
+    "request": "^2.67.0"
+  },
   "devDependencies": {},
   "keywords": [
     "google",
