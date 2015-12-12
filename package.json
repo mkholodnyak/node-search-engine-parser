@@ -1,0 +1,21 @@
+{
+  "name": "search-engines-crawler",
+  "url" : "https://github.com/mkholodnyak/search-engines-crawler/issues",
+  "author": "Max Kholodnyak",
+  "email" : "mvkholodnyak@gmail.com",
+  "version": "0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "google",
+    "image",
+    "serp",
+    "crawler"
+  ],
+  "license": "ISC"
+}
