@@ -10,7 +10,7 @@ var GoogleImageStrategy = {
         return GOOGLE_SEARCH_URL + query
     },
 
-    getImageLinksFromHTML : function(html, callback){
+    getResults : function(html, callback){
         var $ = cheerio.load(html);
         var imageLinks = $(IMAGE_LINKS_SELECTOR);
         var imageHrefs = [];

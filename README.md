@@ -36,7 +36,7 @@ googleImagesCrawler.search('kitten', function(err, results){
 Own search engine
 -------
 
-You need to implement Strategy interface:
+You need to implement Search Strategy interface:
 
  ```js
 
@@ -45,7 +45,7 @@ var GoogleImageStrategy = {
 
     },
 
-    getImageLinksFromHTML : function(html, callback){
+    getResults : function(html, callback){
 
     }
 };
