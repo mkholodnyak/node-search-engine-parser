@@ -56,7 +56,7 @@ var SearchEngineStrategy = {
             imageHrefs.push(element.attribs.href);
         });
 
-        callback(null, result);
+        callback(null, imageHrefs);
     }
 };
  ```

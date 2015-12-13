@@ -1,6 +1,7 @@
 {
   "name": "search-engine-parser",
   "url": "https://github.com/mkholodnyak/node-search-engine-parser/issues",
+  "repository": "mkholodnyak/node-search-engine-parser",
   "author": "Max Kholodnyak",
   "email": "mvkholodnyak@gmail.com",
   "version": "0.9.0",
@@ -18,7 +19,7 @@
   "keywords": [
     "google",
     "image",
-    "serp",
+    "search",
     "parser"
   ],
   "license": "MIT"
