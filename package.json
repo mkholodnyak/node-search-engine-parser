@@ -4,7 +4,7 @@
   "repository": "mkholodnyak/node-search-engine-parser",
   "author": "Max Kholodnyak",
   "email": "mvkholodnyak@gmail.com",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "A module to search and scrape search engines",
   "main": "index.js",
   "directories": {
